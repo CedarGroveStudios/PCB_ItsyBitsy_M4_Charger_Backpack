@@ -310,7 +310,7 @@
     (pad "5" thru_hole oval locked (at 0 10.16 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 21 "/D4") (pinfunction "P5") (pintype "passive") (tstamp db83d0af-e085-4050-8496-fa2ebdecbd62))
     (model ":KICAD_USER_3D_MOD:Adafruit_CAD_Parts/3800 ItsyBitsy M4/3800-ItsyBitsy-M4.step"
-      (offset (xyz 34.3002 3.7998 20))
+      (offset (xyz 34.3002 3.7998 10))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
@@ -319,19 +319,19 @@
       (scale (xyz 1 1 0.8))
       (rotate (xyz 0 0 0))
     )
-    (model "/Library/Application Support/kicad/modules/packages3d/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-      (offset (xyz 0 0 20))
-      (scale (xyz 1 1 0.8))
+    (model "/Library/Application Support/kicad/modules/packages3d/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 10))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 180 0))
     )
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
-      (offset (xyz 33 -12.7 20))
-      (scale (xyz 1 1 0.8))
+      (offset (xyz 33 -9.7 10))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 180 90))
     )
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
-      (offset (xyz 33 2.54 20))
-      (scale (xyz 1 1 0.8))
+      (offset (xyz 33 2.54 10))
+      (scale (xyz 1 1 0.7))
       (rotate (xyz 0 180 90))
     )
   )
@@ -392,10 +392,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/Library/Application Support/kicad/modules/packages3d/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
+    (model "/Library/Application Support/kicad/modules/packages3d/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl" hide
       (offset (xyz -1.4 1.3 0))
       (scale (xyz 1.36 1 0.8))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD_USER_3D_MOD}/JST-S2B-PH-SM4-TB(LF)(SN).STEP"
+      (offset (xyz 0 -4.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -27125,7 +27130,7 @@
   (dimension (type aligned) (layer "F.SilkS") (tstamp 0822c170-c52f-4a24-9f2e-dc0082caf2a3)
     (pts (xy 165.1 119.38) (xy 165.1 96.52))
     (height 0)
-    (gr_text "0.9 in" (at 165.1 107.95) (layer "F.SilkS") (tstamp 6ec9b192-4dfd-4b11-b261-b58b83ab46be)
+    (gr_text "22.9 mm" (at 165.1 107.95) (layer "F.SilkS") (tstamp 0822c170-c52f-4a24-9f2e-dc0082caf2a3)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 1) suppress_zeroes)
@@ -27134,7 +27139,7 @@
   (dimension (type aligned) (layer "F.SilkS") (tstamp 2ba9cf9c-6b5d-4cb9-a54d-d3a9e3249a59)
     (pts (xy 160.02 123.19) (xy 109.22 123.19))
     (height 0)
-    (gr_text "2.0 in" (at 134.62 123.19) (layer "F.SilkS") (tstamp 81c33246-b19b-41fd-b801-567082f5beea)
+    (gr_text "50.8 mm" (at 134.62 123.19) (layer "F.SilkS") (tstamp 2ba9cf9c-6b5d-4cb9-a54d-d3a9e3249a59)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 1))
