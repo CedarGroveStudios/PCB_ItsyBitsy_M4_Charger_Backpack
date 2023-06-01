@@ -2,7 +2,7 @@
 
 # ItsyBitsy M4 Charger Backpack
 
-![Image of Module](https://github.com/CedarGroveStudios/PCB_ItsyBitsy_M4_Charger_Backpack/blob/main/photos%20and%20graphics/ItsyBitsy_breadboard_adapter_social.png)
+![Image of Module](https://github.com/CedarGroveStudios/PCB_ItsyBitsy_M4_Charger_Backpack/blob/main/photos%20and%20graphics/itsybitsy_charger_modules.png)
 
 ## Overview
 The ItsyBitsy M4 Charger Backpack is an Adafruit ItsyBitsy M4 Express-compatible piggyback module that converts the 3-sided pinout of the ItsyBitsy to dual in-line for use on typical solderless breadboards and soldered protoboards. The adapter was also designed with extra solderable pin connections.
